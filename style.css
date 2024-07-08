@@ -88,6 +88,14 @@
     background-color: #b5739d;
     color : white;
 }
+.account-link 
+{
+    width : 252px;
+    position : absolute;
+    top : 490px;
+    border : 1px solid #b5739d;
+    border-radius: 8px;
+}
 .grid-container
 {
     margin-top : 92px;
@@ -98,6 +106,15 @@
     grid-template-rows: auto auto auto;
     gap : 20px 20px;
     grid-auto-flow: row;
+}
+.stat 
+{
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.stat:hover 
+{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px #888888;
 }
 .grid-item1
 {
@@ -129,11 +146,13 @@
 {
     width : 77%;
     margin-left: 294px;
+    margin-right : 20px;
     border : 1px solid #82b382;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     font-size: 18px;
     text-align: center;
+    box-shadow : 0px 4px 8px #888888;
 }
 .heading1
 {
@@ -162,6 +181,7 @@
     border-top-right-radius: 20px;
     font-size: 18px;
     text-align: center;
+    box-shadow : 0px 4px 8px #888888;
 }
 .table2 th
 {
@@ -190,6 +210,7 @@
     border : 4px double #9c6f6d;
     background-color: #f8cecc;
     margin-right : 18px;
+    box-shadow : 0px 4px 8px #888888;
 }
 .grid-container1
 {
@@ -236,6 +257,7 @@
     border : 1px solid #82b382;
     font-size: 18px;
     text-align: center;
+    box-shadow : 0px 4px 8px #888888;
 }
 .table3 th
 {
@@ -271,6 +293,7 @@
     border : 1px solid #95a2b3;
     font-size: 18px;
     text-align: center;
+    box-shadow : 0px 4px 8px #888888;
 }
 .table4 th
 {
@@ -300,6 +323,7 @@
     border : 1px solid rgb(65, 65, 255);
     background-color: rgb(167, 167, 240);
     margin-right : 20px;
+    box-shadow : 0px 4px 8px #888888;
 }
 .item1
 {
