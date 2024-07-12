@@ -15,6 +15,7 @@
     position : fixed;
     width : 100%;
     top : 0px;
+    height: 11vh;
 }
 .verticalAlignTextBottom
 {
@@ -54,8 +55,8 @@
 }
 .navbar
 {
-    top : 71px;
-    height :100%;
+    top : 11vh;
+    height : 89vh;
     width : 274px;
     background-color : #e1d5e7;
     overflow : hidden;
@@ -63,9 +64,7 @@
     position : fixed;
     display: flex;
     flex-direction: column;
-    align-content: bottom;
-    /* justify-content: space-between;  */
-    /* align-content: space-around; */
+    justify-content: space-between;
 }
 .navbar a
 {
@@ -87,14 +86,6 @@
 {
     background-color: #b5739d;
     color : white;
-}
-.account-link 
-{
-    width : 252px;
-    position : absolute;
-    top : 490px;
-    border : 1px solid #b5739d;
-    border-radius: 8px;
 }
 .grid-container
 {
